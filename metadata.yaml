@@ -1,10 +1,10 @@
 name: astrbot_plugin_ancient_poem
 display_name: 每日古诗
-description: 随机获取一句古诗词，支持指令 /gs。
+description: 通过/gs指令让机器人获取古诗
 version: 0.1.0
-author: user
+author: 花殇
 astrbot_version: ">=3,<5"
-repo: https://github.com/yourname/astrbot_plugin_ancient_poem
+repo: https://github.com/juangchuank-ops/astrbot_plugin_ancient_poem
 support_platforms:
   - aiocqhttp
   - qq_official
