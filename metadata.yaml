@@ -1,0 +1,16 @@
+name: astrbot_plugin_ancient_poem
+display_name: 每日古诗
+description: 随机获取一句古诗词，支持指令 /gs。
+version: 0.1.0
+author: user
+astrbot_version: ">=3,<5"
+repo: https://github.com/yourname/astrbot_plugin_ancient_poem
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - discord
+  - wecom
+  - lark
+  - dingtalk
+  - kook
