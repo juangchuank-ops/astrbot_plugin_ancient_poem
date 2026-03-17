@@ -1,10 +1,22 @@
 name: astrbot_plugin_ancient_poem
 display_name: 每日古诗
-description: 通过/gs指令让机器人获取古诗
+description: 这是一个 AstrBot 插件，用于随机获取并发送一首古诗词。
+
+功能
+指令：/gs
+功能：随机获取一首古诗词，并附有作者和出处。
+数据来源：一言 (Hitokoto) API（诗词分类）。
+安装
+将astrbot_plugin_ancient_poem文件夹放入 AstrBot 的data/plugins/目录。
+重新启动 AstrBot 或重新加载插件。
+依赖
+aiohttp
+效果
+用户：/gs 机器人：「众里他千百度。蓦然回首，那人却在，灯火寻觅阑珊处。」——辛弃疾《青玉案·元夕》"。
 version: 0.1.0
-author: 花殇
+author: user
 astrbot_version: ">=3,<5"
-repo: https://github.com/juangchuank-ops/astrbot_plugin_ancient_poem
+repo: https://github.com/yourname/astrbot_plugin_ancient_poem
 support_platforms:
   - aiocqhttp
   - qq_official
